@@ -15,8 +15,10 @@ function submitIt(){
   })
 }
 function pressIt(){
-  $('input').on('keydown',function(){
-    
+  $('input').on('keydown',function(key){
+if(key.which == 71){
+  alert('You pressed G');
+}
   })
 }
 
